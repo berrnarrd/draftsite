@@ -12,19 +12,19 @@ const Navbar: React.FC = () => {
     return (
         <header className="sticky top-0 z-50 w-full flex justify-center p-4">
             <nav className="flex justify-between items-center backdrop-blur-24px bg-[hsla(0,0%,100%,0.30)] rounded-full px-6 py-3 h-14 w-[760px]">
-                <Link href="/" className="flex items-center space-x-2">
+                <Link href="/home-korean" className="flex items-center space-x-2">
                     <img src="/NavLogo.svg" alt="Logo" className="h-10" /> {/* Adjust the height as needed */}
-                    <span className="hidden md:inline text-2xl font-bold text-white">Common Options</span>
+                    <span className="hidden md:inline text-2xl font-bold text-white">일반적인 선택 사항</span>
                 </Link>
                 <ul className="hidden md:flex space-x-4">
                     <li>
-                        <Link href="/about" className="text-white transition">
-                            About Us
+                        <Link href="/about-korean" className="text-white transition">
+                            회사 소개
                         </Link>
                     </li>
                     <li>
-                        <Link href="/services" className="text-white transition">
-                            Services
+                        <Link href="/services-korean" className="text-white transition">
+                            서비스
                         </Link>
                     </li>
                     <li className="relative">
@@ -53,8 +53,8 @@ const Navbar: React.FC = () => {
                         )}
                     </li>
                     <li>
-                        <Link href="/contact" className="px-4 py-2 bg-[#FFB81C] text-white rounded-full transition">
-                            Contact Us
+                        <Link href="/contact-korean" className="px-4 py-2 bg-[#FFB81C] text-white rounded-full transition">
+                            문의하기
                         </Link>
                     </li>
                 </ul>
@@ -79,13 +79,13 @@ const Navbar: React.FC = () => {
                 </button>
                 <ul className="mt-16 flex flex-col space-y-2 p-4 items-center">
                     <li>
-                        <Link href="/about" className="text-white transition">
-                            About Us
+                        <Link href="/about-korean" className="text-white transition">
+                            회사 소개
                         </Link>
                     </li>
                     <li>
-                        <Link href="/services" className="text-white transition">
-                            Services
+                        <Link href="/services-korean" className="text-white transition">
+                            서비스
                         </Link>
                     </li>
                     <li className="relative">
@@ -114,8 +114,8 @@ const Navbar: React.FC = () => {
                         )}
                     </li>
                     <li>
-                        <Link href="/contact" className="w-3/4 px-4 py-2 bg-[#FFB81C] text-white text-center rounded-full transition">
-                            Contact Us
+                        <Link href="/contact-korean" className="w-3/4 px-4 py-2 bg-[#FFB81C] text-white text-center rounded-full transition">
+                            문의하기
                         </Link>
                     </li>
                 </ul>
